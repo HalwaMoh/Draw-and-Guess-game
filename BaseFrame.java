@@ -1,4 +1,7 @@
-class BaseFrame extends JFrame {
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+abstract class BaseFrame extends JFrame {
 
     // Attributes
     protected String frameTitle;
@@ -8,8 +11,8 @@ class BaseFrame extends JFrame {
     protected boolean visible;
 
     // Methods
-    public void handleResize();
-    public void setFrameProperties();
-    public void setScreen(JPanel panel);
-    public void changeFramePanel(BaseFrame newFrame);
+    public abstract void handleResize();
+    public abstract void setFrameProperties();
+    public abstract void setScreen(JPanel panel);
+    public abstract void changeFramePanel(BaseFrame newFrame);
 }
