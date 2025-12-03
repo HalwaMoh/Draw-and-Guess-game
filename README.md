@@ -1,11 +1,11 @@
 # Draw and Guess (Java Swing)
-```
+
 Draw and Guess is a local multiplayer drawing-and-guessing game built with **Java** and **Swing**. One player draws a secret word while the others try to guess it. The game includes curated word categories and also allows players to add their own custom words. All data is stored only in memory, with no files or database usage.
 
 ---
 
 ## Features
-```
+
 - Local multiplayer on a single computer  
 - Players enter their names and number of players  
 - Ten curated word categories (≈50 words each)  
@@ -27,7 +27,7 @@ Draw and Guess is a local multiplayer drawing-and-guessing game built with **Jav
 - **Git** for version control  
 
 ---
-```
+
 ## Project Structure (Short Overview)
 
 ```
@@ -38,7 +38,7 @@ game.ui          → MainFrame, GameController, DrawPanel
 game.timer       → RoundTimer (timer + hint events)
 game.utils       → Helpers, fonts, constants
 
-````
+```
 
 ---
 
